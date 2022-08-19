@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Add Property</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .signin {
+      height: auto;
+      width: 100%;
+      text-align: center;
+    }
+
+    /* header */
+    .header {
+      width: 100%;
+      height: 10vh;
+      background-color: rgb(0, 0, 53);
+      color: whitesmoke;
+      position: sticky;
+      top: 0;
+      text-align: left;
+    }
+
+    .logo {
+      width: 30%;
+      height: 80%;
+    }
+
+    .logo span {
+      font-size: 30px;
+      font-weight: bolder;
+      cursor: pointer;
+      border: 2px solid rgba(255, 255, 255, 0.783);
+      position: absolute;
+      top: 10%;
+      left: 1%;
+      padding: 5px;
+    }
+
+
+    a {
+      text-decoration: none;
+      color: whitesmoke;
+    }
+
+    /* header */
+
+
+    .form {
+      width: 40%;
+      margin-top: 20px;
+      margin-left: 30%;
+      border: 1px solid blue;
+      padding: 20px 0 20px 0;
+    }
+
+    .form span {
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    .form input {
+      width: 70%;
+      height: 40px;
+      margin: 15px 0 15px 0;
+      outline: none;
+      border: 1px solid blue;
+      padding-left: 10px;
+    }
+
+    .form input[type="file"] {
+      width: 70%;
+      height: 40px;
+      margin: 15px 0 15px 0;
+      outline: none;
+      border: 1px solid blue;
+      padding: 12px 0 0 12px;
+    }
+
+    .form select {
+      width: 72%;
+      height: 40px;
+      margin: 15px 0 15px 0;
+      outline: none;
+      border: 1px solid blue;
+      padding-left: 10px;
+      background-color: none;
+    }
+
+    .form textarea {
+      margin: 15px 0 15px 0;
+      outline: none;
+      border: 1px solid blue;
+      padding: 12px;
+    }
+
+    .form input[type="submit"] {
+      width: 30%;
+      border: none;
+      background-color: blue;
+      color: whitesmoke;
+      border-radius: 15px;
+      cursor: pointer;
+      margin-right: 30px;
+    }
+
+    .form input[type="reset"] {
+      width: 30%;
+      border: none;
+      background-color: blue;
+      color: whitesmoke;
+      border-radius: 15px;
+      cursor: pointer;
+    }
+
+    .form small {
+      font-size: 17px;
+    }
+
+    .form small a {
+      text-decoration: none;
+      font-weight: bold;
+      color: blue;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="signin">
+    <div class="header">
+      <div class="logo">
+        <a href="Dashboard.html"> <span>Property Pro Lite</span></a>
+      </div>
+    </div>
+    <div class="form">
+      <form>
+        <br />
+        <span>Add Property 4r Sale or Rent</span><br />
+        <input type="text" placeholder="Add Property Name" /><br />
+        <input type="number" placeholder="Add Property Price in Rwf" /><br />
+        <input type="Number" placeholder="Add Possible Phone Numbers:078xxxxxxx/072xxxxxxx" /><br />
+        <input type="text" placeholder="Add Property Location" /><br />
+        <select name="" id="">
+          <option value="">Choose Property Category</option>
+          <option value="">House</option>
+          <option value="">Land Plot</option>
+          <option value="">Accessories</option>
+        </select><br />
+        <input type="file" multiple /><br />
+        <textarea name="" id="" cols="46" rows="10" placeholder="Add Property Detailed Descriptions"></textarea><br />
+        <input type="submit" value="Add Property" /><br />
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
