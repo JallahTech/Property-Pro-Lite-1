@@ -85,7 +85,7 @@ a {
       rgba(2, 0, 36, 1) 0%,
       rgba(0, 0, 0, 0.5494572829131652) 0%
     ),
-    url(../image/housee.jpeg);
+    url(housee.jpeg);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -204,7 +204,7 @@ a:hover {
       rgba(2, 0, 36, 1) 0%,
       rgba(0, 0, 0, 0.7430147058823529) 0%
     ),
-    url("../image/housee.jpg") no-repeat;
+    url("housee.jpg") no-repeat;
   background-attachment: fixed;
   color: white;
 }
